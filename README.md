@@ -1,2 +1,2 @@
-# subinkim.github.io
+# suubkiim.github.io
 Subin's Tech blog
