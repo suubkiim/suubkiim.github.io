@@ -74,13 +74,12 @@ experimental/subinkim/안에 hello_world라는 파일과 WORKSPACE 파일 생성
 
 (3) 실행 결과
 
-![image1](./_images/7e210d5e-1912-48ff-a53b-5ec0acc025a5.png)
-
+<img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/7e210d5e-1912-48ff-a53b-5ec0acc025a5.png" width=50%>
 
 
 (4) 빌드 성공
 
-![image2](./_images/f92f2286-88f7-4811-ae9c-2ba366acd439.png)
+<img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/f92f2286-88f7-4811-ae9c-2ba366acd439.png" width=50%>
 
 cf. 위의 내용과 같이 빌드가 성공적으로 되었을 경우, bazel-bin 디렉토리에 빌드 결과물이 위치하게 됩니다. 아래의 명령어로 바이너리를 실행할 수 있습니다. (https://hiseon.me/c/bazel-tutorial/)
 
@@ -97,4 +96,4 @@ $ bazel-bin/main/hello-world
 
 * 실행 결과
 
-![image3](./_images/7667d600-429e-44fa-8740-131b69a82b56.png)
+<img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/7667d600-429e-44fa-8740-131b69a82b56.png" width=50%>
