@@ -15,7 +15,7 @@ Bazel을 설계 할 때 빌드 속도, 정확성 및 재현성에 중점을 두�
  
 * 코드 양이 아주 방대하거나 여러가지 언어를 컴파일해야 하는 프로젝트, 다양한 플랫폼을 설치해야 하는 프로젝트 등에서 바젤이 유용하다. 
 
-[ 바젤 알아보기 ] : https://limelab.tistory.com/20
+> [ 바젤 알아보기 ] : https://limelab.tistory.com/20
 
 * cf. 안드로이드의 gradle [ 참고 사이트 ] :  https://mullue.github.io/tools/2018/01/07/bazel-Cpp-build.html
 
@@ -59,9 +59,9 @@ Bazel에서 타겟을 라벨링하는 문법은 아래와 같다. (예: `//main:
 
 ## **프로젝트 빌드**
 
-(1) 터미널에서 w4/experimental/subinkim/hello_world 로 이동
+#### (1) 터미널에서 w4/experimental/subinkim/hello_world 로 이동
 
-(2) 명령어 실행 : Admins-MacBook-Pro:hello_world subinkim$ bazel build //hello_world:hello_world
+#### (2) 명령어 실행 : Admins-MacBook-Pro:hello_world subinkim$ bazel build //hello_world:hello_world
 
 ```
 $ bazel build //main:hello-world
@@ -72,12 +72,12 @@ experimental/subinkim/안에 hello_world라는 파일과 WORKSPACE 파일 생성
 ```
 > 여기에서 WORKSPACE 파일을 따로 만들어 사용했으나, 평소에는 w4 폴더 내에 있는 WORKSPACE 폴더 이용하면 됨 (w4로부터의 상대경로 이용)
 
-(3) 실행 결과
+#### (3) 실행 결과
 
 <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/7e210d5e-1912-48ff-a53b-5ec0acc025a5.png" width=50%>
 
 
-(4) 빌드 성공
+#### (4) 빌드 성공
 
 <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/f92f2286-88f7-4811-ae9c-2ba366acd439.png" width=50%>
 
@@ -87,7 +87,7 @@ cf. 위의 내용과 같이 빌드가 성공적으로 되었을 경우, bazel-bi
 
  
 
-(5) Testing
+#### (5) Testing
 
 ```
 #예시
