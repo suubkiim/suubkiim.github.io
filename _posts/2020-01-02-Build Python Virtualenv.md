@@ -7,7 +7,7 @@ categories: Build tools
 ### 1. 파이썬 / pip 설정
 
 * python 설치 후, 다음 실행 (python version 3.6.8 기준)
-> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/python install.png" width=50%>
+> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/python install.png" width=50%></img>
 
 * pip config 파일 및 업그레이드
 
@@ -65,8 +65,8 @@ $ source venv/bin/activate
 ```
 > 화면 예시
 
-> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/install virtualenv.png" width=70%>
-> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/get virtualenv.png" width=70%>
+> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/install virtualenv.png" width=70%></img>
+> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/get virtualenv.png" width=70%></img>
 
 * 가상환경 벗어나기
 
@@ -75,4 +75,4 @@ $ deactivate
 ```
 > 화면 예시 : 터미널에서 보면, (venv) 상태 제거
 
-> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/deactivate virtual.png" width=70%>
+> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/deactivate virtual.png" width=70%></img>
