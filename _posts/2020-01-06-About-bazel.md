@@ -47,13 +47,13 @@ Bazel에서 타겟을 라벨링하는 문법은 아래와 같다. (예: `//main:
 ```
 //path/to/package:target-name
 ```
-룰 타겟일 경우, path/to/package는 BUILD파일이 저장된 디렉토리경로이고 target-name은 빌드파일에 name 속성을 이용하여 정의한 target이름이다.
+* 룰 타겟일 경우, path/to/package는 BUILD파일이 저장된 디렉토리경로이고 target-name은 빌드파일에 name 속성을 이용하여 정의한 target이름이다.
 
-파일 타겟일 경우, path/to/package 는 패키지 루트의 경로이고 target-name 은 타겟파일의 이름(전체경로를 포함한)이다.
+* 파일 타겟일 경우, path/to/package 는 패키지 루트의 경로이고 target-name 은 타겟파일의 이름(전체경로를 포함한)이다.
 
-동일한 패키지내에서는 패키지 경로를 제외하고 //:target-name 로 접근할 수 있다.
+* 동일한 패키지내에서는 패키지 경로를 제외하고 //:target-name 로 접근할 수 있다.
 
-동일한 빌드파일 내에서는 //를 제외하고 :target-name 만으로 접근할 수 있다.
+* 동일한 빌드파일 내에서는 //를 제외하고 :target-name 만으로 접근할 수 있다.
 
  
 
