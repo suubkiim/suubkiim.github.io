@@ -7,7 +7,7 @@ categories: Build tools
 ### 1. 파이썬 / pip 설정
 
 * python 설치 후, 다음 실행 (python version 3.6.8 기준)
-> <img src="../_images/python install.png" width="50%"></img>
+> <img src="https://github.com/suubkiim/suubkiim.github.io/blob/master/_images/python install.png" width="50%">
 
 * pip config 파일 및 업그레이드
 
