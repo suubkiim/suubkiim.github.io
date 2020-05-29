@@ -59,7 +59,7 @@ Bazel에서 타겟을 라벨링하는 문법은 아래와 같다. (예: `//main:
 
 ## **프로젝트 빌드**
 
-#### (1) 터미널에서 w4/experimental/subinkim/hello_world 로 이동
+#### (1) 터미널에서 ~/experimental/subinkim/hello_world(WORKSPCE 파일이 있는 곳까지) 로 이동
 
 #### (2) 명령어 실행 : Admins-MacBook-Pro:hello_world subinkim$ bazel build //hello_world:hello_world
 
@@ -70,7 +70,7 @@ $ bazel build //main:hello-world
 #hello-world는 빌드파일내에 정의된 target의 이름이다.
 experimental/subinkim/안에 hello_world라는 파일과 WORKSPACE 파일 생성, 이 안에 hello_world.py와 BUILD파일이 있음. 
 ```
-> 여기에서 WORKSPACE 파일을 따로 만들어 사용했으나, 평소에는 w4 폴더 내에 있는 WORKSPACE 폴더 이용하면 됨 (w4로부터의 상대경로 이용)
+> 여기에서 WORKSPACE 파일을 따로 만들어 사용했으나, 평소에는 git repository base 폴더 내에 있는 WORKSPACE 폴더 이용하면 됨 (base root로부터의 상대경로 이용)
 
 #### (3) 실행 결과
 
